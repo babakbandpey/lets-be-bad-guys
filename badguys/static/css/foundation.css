@@ -943,7 +943,7 @@ blockquote p {
 /* Microformats */
 .vcard {
   display: inline-block;
-  margin: 0 0 1.25em 0;
+  margin: 0 0 1.25em;
   border: 1px solid #dddddd;
   padding: 0.625em 0.75em; }
   .vcard li {
@@ -1117,9 +1117,9 @@ blockquote p {
     font-size: 0.6875em; }
   .button.expand {
     padding-top: false;
-    padding-right: 0px;
+    padding-right: 0;
     padding-bottom: false0.0625em;
-    padding-left: 0px;
+    padding-left: 0;
     width: 100%; }
   .button.left-align {
     text-align: left;
@@ -1254,7 +1254,7 @@ label {
     float: none;
     text-align: right; }
   label.inline {
-    margin: 0 0 1em 0;
+    margin: 0 0 1em;
     padding: 0.625em 0; }
 
 /* Attach elements to the beginning or end of an input */
@@ -1337,7 +1337,7 @@ textarea {
   color: rgba(0, 0, 0, 0.75);
   display: block;
   font-size: 0.875em;
-  margin: 0 0 1em 0;
+  margin: 0 0 1em;
   padding: 0.5em;
   height: 2.3125em;
   width: 100%;
@@ -1471,8 +1471,8 @@ form.custom {
     top: 0;
     height: 2.3125em;
     margin-bottom: 1.25em;
-    margin-top: 0px;
-    padding: 0px;
+    margin-top: 0;
+    padding: 0;
     width: 100%;
     background: white;
     background: -moz-linear-gradient(top, white 0%, #f3f3f3 100%);
@@ -1511,7 +1511,7 @@ form.custom {
         width: 0;
         height: 0;
         border: solid 5px;
-        border-color: #aaaaaa transparent transparent transparent;
+        border-color: #aaaaaa transparent transparent;
         position: absolute;
         left: 0.9375em;
         top: 50%;
@@ -1522,7 +1522,7 @@ form.custom {
       width: 0;
       height: 0;
       border: solid 5px;
-      border-color: #222222 transparent transparent transparent; }
+      border-color: #222222 transparent transparent; }
     form.custom .custom.dropdown .disabled {
       color: #888888; }
       form.custom .custom.dropdown .disabled:hover {
@@ -1567,8 +1567,8 @@ form.custom {
     margin: 0;
     left: -1px;
     top: none;
-    -webkit-box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
     margin: 0;
     padding: 0;
     background: white;
@@ -1669,14 +1669,14 @@ form.custom {
     height: 0;
     display: block;
     border-style: solid;
-    border-color: white transparent transparent transparent;
+    border-color: white transparent transparent;
     top: 50%; }
   .dropdown.button:before {
     border-width: 0.5625em;
     right: 1.5em;
     margin-top: -0.25em; }
   .dropdown.button:before {
-    border-color: white transparent transparent transparent; }
+    border-color: white transparent transparent; }
   .dropdown.button.tiny {
     padding-right: 2.1875em; }
     .dropdown.button.tiny:before {
@@ -1684,7 +1684,7 @@ form.custom {
       right: 0.875em;
       margin-top: -0.15625em; }
     .dropdown.button.tiny:before {
-      border-color: white transparent transparent transparent; }
+      border-color: white transparent transparent; }
   .dropdown.button.small {
     padding-right: 2.8125em; }
     .dropdown.button.small:before {
@@ -1692,7 +1692,7 @@ form.custom {
       right: 1.125em;
       margin-top: -0.21875em; }
     .dropdown.button.small:before {
-      border-color: white transparent transparent transparent; }
+      border-color: white transparent transparent; }
   .dropdown.button.large {
     padding-right: 4em; }
     .dropdown.button.large:before {
@@ -1700,9 +1700,9 @@ form.custom {
       right: 1.75em;
       margin-top: -0.3125em; }
     .dropdown.button.large:before {
-      border-color: white transparent transparent transparent; }
+      border-color: white transparent transparent; }
   .dropdown.button.secondary:before {
-    border-color: #333333 transparent transparent transparent; }
+    border-color: #333333 transparent transparent; }
 
 /* Split Buttons */
 .split.button {
@@ -1734,11 +1734,11 @@ form.custom {
       top: 1.125em;
       margin-left: -0.5625em; }
   .split.button span:before {
-    border-color: white transparent transparent transparent; }
+    border-color: white transparent transparent; }
   .split.button.secondary span {
     border-left-color: #c3c3c3; }
   .split.button.secondary span:before {
-    border-color: white transparent transparent transparent; }
+    border-color: white transparent transparent; }
   .split.button.alert span {
     border-left-color: #7f0a0c; }
   .split.button.success span {
@@ -1768,7 +1768,7 @@ form.custom {
         top: 1.3125em;
         margin-left: -0.5625em; }
   .split.button.secondary span:before {
-    border-color: #333333 transparent transparent transparent; }
+    border-color: #333333 transparent transparent; }
   .split.button.radius span {
     -webkit-border-radius: 0 3px 3px 0;
     border-radius: 0 3px 3px 0; }
@@ -2191,7 +2191,7 @@ form.custom {
       border-left: solid 1px black;
       clear: none;
       height: 45px;
-      width: 0px; }
+      width: 0; }
     .top-bar-section .has-form {
       background: #111111;
       padding: 0 15px;
@@ -2251,7 +2251,7 @@ form.custom {
       display: none;
       position: absolute;
       top: 10px;
-      right: 0px;
+      right: 0;
       width: 11px;
       height: 14px;
       border: solid 4px black;
@@ -2303,7 +2303,7 @@ form.custom {
       border-color: transparent transparent transparent #cccccc; }
 
 .orbit-bullets {
-  margin: 0 auto 30px auto;
+  margin: 0 auto 30px;
   overflow: hidden;
   position: relative;
   top: 10px; }
@@ -2468,7 +2468,7 @@ form.custom {
   color: white; }
 
 .joyride-tip-guide p {
-  margin: 0 0 1.125em 0;
+  margin: 0 0 1.125em;
   font-size: 0.875em;
   line-height: 1.3; }
 
@@ -2790,7 +2790,7 @@ kbd {
   margin: 0;
   font-family: "Consolas", "Menlo", "Courier", monospace;
   font-size: 0.9375em;
-  padding: 0.125em 0.25em 0em;
+  padding: 0.125em 0.25em 0;
   -webkit-border-radius: 3px;
   border-radius: 3px; }
 
@@ -2851,7 +2851,7 @@ kbd {
     margin-left: 0.3125em; }
     .pagination li a {
       display: block;
-      padding: 0.0625em 0.4375em 0.0625em;
+      padding: 0.0625em 0.4375em;
       color: #999999; }
     .pagination li:hover a,
     .pagination li a:focus {
@@ -3005,7 +3005,7 @@ kbd {
   list-style-type: none;
   list-style-position: inside; }
   .side-nav li {
-    margin: 0 0 0.4375em 0;
+    margin: 0 0 0.4375em;
     font-size: 0.875em; }
     .side-nav li a {
       display: block;
@@ -3289,7 +3289,7 @@ table {
     width: 0;
     height: 0;
     border: solid 5px;
-    border-color: transparent transparent black transparent;
+    border-color: transparent transparent black;
     top: -10px; }
   .tooltip.opened {
     color: #2ba6cb !important;
@@ -3306,10 +3306,10 @@ table {
 
 @media only screen and (min-width: 48em) {
   .tooltip > .nub {
-    border-color: transparent transparent black transparent;
+    border-color: transparent transparent black;
     top: -10px; }
   .tooltip.tip-top > .nub {
-    border-color: black transparent transparent transparent;
+    border-color: black transparent transparent;
     top: auto;
     bottom: -10px; }
   .tooltip.tip-left, .tooltip.tip-right {
@@ -3355,7 +3355,7 @@ table {
     width: 0;
     height: 0;
     border: solid 6px;
-    border-color: transparent transparent white transparent;
+    border-color: transparent transparent white;
     position: absolute;
     top: -12px;
     left: 10px;
@@ -3366,7 +3366,7 @@ table {
     width: 0;
     height: 0;
     border: solid 7px;
-    border-color: transparent transparent #cccccc transparent;
+    border-color: transparent transparent #cccccc;
     position: absolute;
     top: -14px;
     left: 9px;
